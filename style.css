@@ -152,6 +152,7 @@ body {
   border-radius: 10px;
   display: flex;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .slide {
@@ -211,4 +212,32 @@ body {
 
 #radio3:checked ~ .first {
   margin-left: -20%;
+}
+
+/* caution*/
+
+.caution {
+  background-color: rgb(68, 67, 73);
+}
+
+.waktu {
+  margin: 20px;
+  color: #fff;
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.waktu > li > a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+
+  display: flex;
+  gap: 8px;
+}
+
+.caution > .kontak {
+  display: flex;
+  justify-content: space-around;
 }
