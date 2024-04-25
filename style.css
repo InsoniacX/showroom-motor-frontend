@@ -293,6 +293,13 @@ body {
   justify-content: center;
 }
 
+.link li, .our-servis li{
+  list-style-type: none;
+}
+.link li a, .our-servis li a{
+  gap: 8px;
+}
+
 .footer h3{
   font-size: 60px;
   text-align: center;
@@ -378,6 +385,100 @@ text-align: center;
   margin-top: 30px;
 }
 
-.search-bar1 i{
-  justify-content: center;
+.kirim{
+  list-style-type: none;
+}
+
+.kirim li a{
+  background-color: red;
+  max-width: 50px;
+}
+
+.shar i:hover, .link li a:hover, .our-servis li a:hover{
+  color: #ff0000;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  #Burger-menu {
+    display: inline-block;
+  }
+
+  .navbar1 .navbar-nav1 {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+
+  .navbar1 .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar1 .navbar-nav1 a {
+    color: var(--bg);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .navbar1 .navbar-nav1 a::after {
+    transform-origin: 0 0;
+  }
+
+  .navbar1 .navbar-nav1 a:hover:after {
+    transform: scaleX(0.2);
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.6rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 }
