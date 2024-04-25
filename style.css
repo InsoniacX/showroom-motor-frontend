@@ -45,6 +45,8 @@ body {
   display: flex;
 }
 
+
+
 .kontak-right > li > a,
 .kontak-left > li > a {
   height: 40px;
@@ -56,6 +58,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  text-decoration: none;
 }
 
 .kontak-right > li > a:hover,
@@ -131,6 +134,7 @@ body {
   line-height: 40px;
   color: #fff;
   padding: 0 20px;
+  text-decoration: none;
 }
 
 .navbar2 > li > a:hover {
@@ -240,7 +244,7 @@ body {
 /* Product-card */
 
 .wrapper-card {
-  max-width: 1500px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -250,8 +254,14 @@ body {
 }
 
 .pic-card1 {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+.pic-card ul{
+  margin: 0;
+  padding: 0;
 }
 
 .product-card {
@@ -261,47 +271,113 @@ body {
 }
 
 .pic-card {
-  border: 1px solid #000000;
+  border: 3px solid #0e46a3;
+  border-radius: 2%;
+}
+
+.pic-card h3 {
+  text-align: center;
+}
+
+.pic-card p {
+  text-align: center;
 }
 
 /* Heading black box */
 
 .footer{
-  background: rgb(13, 13, 85);
-  display: grid;
+  background: #0e46a3;
   grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
   gap: 2rem;
-
-  padding: 4rem;
+  padding-top: 50px;
+  justify-content: center;
 }
+
 .footer h3{
-  font-size: 3.5rem;
+  font-size: 60px;
   text-align: center;
   margin: 2rem 0;
   color: var(--primary4);
 }
+
 .footer p{
 
   font-size: 1.6rem;
   margin: 1rem 0;
   color: var(--primary4);
 }
+
 .footer i{
-  font-size: 2.6rem;
+  font-size: 30px;
   margin: 1rem 0.5rem;
   color: var(--primary4);
 }
+.footer-search{
+text-align: center;
+}
+
 .footer i:hover,
 .footer a:hover{
   color: var(--primary4);
 }
+
 .footer a{
   display: block;
-  font-size: 2rem;
+  font-size: 20px;
   margin: 0.5rem;
+  color: var(--primary4);
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer h2{
+  text-align: center;
+}
+
+.footer-bottom{
+  background: #0e46a3;
+  grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+  gap: 2rem;
+  padding-bottom: 150px;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-bottom h3{
+  font-size: 60px;
+  text-align: center;
+  margin: 2rem 0;
   color: var(--primary4);
 }
 
+.footer-bottom a{
+  display: flex;
+  font-size: 20px;
+  margin: 0.5rem;
+  color: var(--primary4);
+  text-decoration: none;
+  text-align: center;
+}
 
+.search1{
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  max-width: 300px;
+  text-align: center;
+  min-width: 400px;
+}
 
+.search-bar-bottom{
+  font-size: 15px;
+  margin-top: 60px;
+}
 
+.space{
+  margin-top: 30px;
+}
+
+.search-bar1 i{
+  justify-content: center;
+}
