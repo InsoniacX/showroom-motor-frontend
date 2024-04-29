@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mosakus.com</title>
+    <title>MOSAKUS</title>
     <!--Untuk font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,8 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
       rel="stylesheet"
     />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--My style-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Boostrap icon-->
     <link
       rel="stylesheet"
@@ -55,8 +57,9 @@
     <div class="header">
     <div class="kontak">
     <h1 class="logo">lorem ipsum</h1>
-    <div class="search-bar"><i class="bi bi-search"></i>
-    <input class="search" type="text" name="search" placeholder="Ketik Untuk Mencari Produk di Mokasku" value="" autocomplete="off" autocomplete2="off" data-listener-added_66b1dd13="true"> 
+    <div class="search-bar">
+      <i class="bi bi-search"></i>
+      <input class="search" type="text" name="search" placeholder="Ketik Untuk Mencari Produk di Mokasku" value="" autocomplete="off" autocomplete2="off" data-listener-added_66b1dd13="true"> 
    </div>
   </div>
 </div>
@@ -66,7 +69,7 @@
       <!-- <div class="kontak"> -->
         <ul class="navbar2">
           <li>
-            <a href="#Home"><i class="bi bi-house-fill"></i></a>
+            <a href="#Home"></a>
           </li>
           <li>
             <a href="#Motor-Bekas">Motor Bekas</a>
@@ -85,6 +88,8 @@
 
       </div>
     </nav>
+
+    <section class="semua-motor"></section>
 
     <!-- Slide Image-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -130,12 +135,26 @@
     <section id="menu" class="menu">
     <div class="row">
       <div class="picture-motor">
-        <img src="img/motor.jpg" class="motor-card"/>
-        <span></span>
-        <img src="img/motor.jpg" class="motor-card"/>
-        <span></span>
-        <img src="img/motor.jpg" class="motor-card"/>
-        <span></span>
+        <ul class="menu-section">
+          <li>
+            <a href="">
+            <img src="img/motor.jpg" class="motor-card"/>
+            <span><i class="fa-solid fa-link"></i></span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+            <img src="img/motor.jpg" class="motor-card"/>
+            <span><i class="fa-solid fa-link"></i></span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+            <img src="img/motor.jpg" class="motor-card"/>
+            <span><i class="fa-solid fa-link"></i></span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     </section>  
@@ -202,55 +221,56 @@
     </div>
   </div>
 
-  <!--Heading black-box-->
-  <div class="space">
-  <footer class="footer">
-    <div class="footer-search">
-        <div class="shar">
-            <i class="bi bi-instagram"></i> 
-            <i class="bi bi-whatsapp"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-facebook"></i>
+    <!--Heading black-box-->
+    <footer class="footer">
+      <div class="content">
+          <div class="shar">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-twitter"></i>
+          </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="text-content">
+          <div class="links">
+            <div class="links-text">
+                <h3>Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#team">Team</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="our-service">
+                <h3>Services</h3>
+                <a href="#">Photography</a>
+                <a href="#">Videography</a>
+                <a href="#">Design</a>
+                <a href="#">Illustrating</a>
+                <a href="#">Photo & Video Editing</a>
+            </div>
+          </div>
         </div>
-    </div>
-  </footer>
-  <footer class="footer-bottom">
-    <div class="link">
-        <h3>Links</h3>
-       <li class="">
-        <a href="#home"><i class="bi bi-house-fill"></i>Home</a>
-        <a href="#about"><i class="bi bi-file-person-fill"></i>About</a>
-        <a href="#services"><i class="bi bi-gear-fill"></i>Services</a>
-        <a href="#contact"><i class="bi bi-telephone-fill"></i>Contact</a>
-        </li>
-    </div>
 
-    <div class="our-servis">
-        <h3>services</h3>
-        <li>
-        <a href="#"><i class="bi bi-camera-fill"></i>Photography</a>
-        <a href="#"><i class="bi bi-camera-fill"></i>Videography</a>
-        <a href="#"><i class="bi bi-palette"></i>Design</a>
-        <a href="#"><i class="bi bi-brush-fill"></i>Illustrating</a>
-        </li> 
-    </div>
 
-    <div class="search-bar-bottom">
-      <div class="search-bar">
-        <i class="bi bi-search"></i>
-        <input class="search1" type="text" name="search" placeholder="Alamat Email" value="" autocomplete="off" autocomplete2="off" data-listener-added_66b1dd13="true"> 
-       </div>
-      <!-- <div class="kirim">
-        <li>
-          <a href="#" class="href">kirim</a>
-        </li>
-      </div> -->
+        <div class="search-bar-bottom">
+          <div class="search-bar">
+            <input class="search1" type="text" name="search" placeholder="Alamat Email" value="" autocomplete="off" autocomplete2="off" data-listener-added_66b1dd13="true"> 
+          </div>
+          <!-- <div class="kirim">
+            <li>
+              <a href="#" class="href">kirim</a>
+            </li>
+          </div> -->
+        </div>
       </div>
     </footer>
-  </div>
     <!--Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
