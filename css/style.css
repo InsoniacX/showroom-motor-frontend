@@ -26,7 +26,7 @@ body {
   background-color: rgb(68, 67, 73);
 }
 
-.kontak {
+.Main-Wrapper {
   max-width: 1024px;
   margin: 0 auto;
   display: flex;
@@ -68,6 +68,7 @@ body {
 
 .header {
   padding: 20px 0;
+  background-color: rgb(221, 220, 220);
 }
 
 .logo {
@@ -79,7 +80,8 @@ body {
 .search {
   min-height: 40px;
   padding-left: 50px;
-  padding-right: 12px;
+  width: 500px;
+
 }
 
 .search1{
@@ -143,7 +145,7 @@ body {
   height: 100%;
   line-height: 40px;
   color: #fff;
-  padding: 10px 100px;
+  padding: 90px;
   text-decoration: none;
 }
 
@@ -151,7 +153,7 @@ body {
   background-color: #fff;
   color: #0e46a3;
   line-height: 40px;
-  padding: 10px 100px;
+  padding: 10px 90px;
 }
 
 /* css for auto slide navigation*/
@@ -178,7 +180,7 @@ body {
   gap: 8px;
 }
 
-.caution > .kontak {
+.caution > .Main-Wrapper {
   display: flex;
   justify-content: space-around;
 }
@@ -249,7 +251,7 @@ body {
   width: 100%;
 }
 
-.Box-heading > .kontak {
+.Box-heading > .Main-Wrapper {
   background-color: #ff0000;
 }
 
@@ -359,8 +361,6 @@ footer{
   color: var(--min-color);
 }
 
-.search-bar-bottom {
-}
 
 .links, .search-bar-bottom {
   margin: 0 50px;
@@ -377,9 +377,119 @@ footer{
   justify-content: space-around;
 }
 
-.text-content {
-  
+.search-bar-bottom{
+  display: flex;
+  border-width: 1px;
+  border-radius: 40px;
+  border-style: solid;
+  height: 40px;
+  border-color: rgb(80, 80, 80);
+  max-width: 400px;
+  overflow: hidden;
+  position: relative;
+  min-width: 400px;
+  margin-top: 18px;
 }
+
+
+/* HTML 2 */
+
+.nav-beranda{
+  padding: 10px;
+  background-color:rgb(221, 220, 220);
+}
+
+.beranda{
+  display: flex;
+  margin-left: 80px;
+
+}
+.beranda1{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+
+.beranda1 li a{
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.beranda ul li a:hover{
+  color: red;
+}
+
+/* Slider */
+
+.slider{
+  margin-bottom: 20px;
+  background-color:#ff0000;
+  padding: 15px;
+  width: 200px;
+  margin-top: 30px;
+}
+.slide1{
+max-width: 200px;
+}
+
+.harga1{
+  background-color:#ff0000;
+  padding: 15px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.box-heading{
+  color: #fafafa;
+  font-family: sans-serif;
+}
+.slide2{
+max-width: 200px;
+font-size: 15px;
+background-color: rgb(221, 220, 220);
+border-radius: 10px;
+}
+
+.coloum-left{
+  width: 200px;
+}
+
+.content-wrapper{
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.image-swipper{
+  margin-left: 20px;
+ 
+}
+
+.swiper{
+  display: flex;
+}
+
+/* .image-japan{
+  border: 2px solid #000000;
+} */
+
+.content1{
+  color: #fff;
+  margin-bottom: 20px;
+  background-color:#ff0000;
+  padding: 15px;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family:sans-serif
+}
+
+
+
+
+
 
 /* Animasi */
 @keyframes fade {
