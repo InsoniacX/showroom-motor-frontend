@@ -329,6 +329,12 @@ body {
 
 /* Heading black box */
 
+/* Heading black box */
+
+.footer-extended{
+  width: 800px;
+}
+
 footer{
   background: #0E46A3;
   text-align: center;
@@ -475,8 +481,9 @@ border-radius: 10px;
 .image-swipper:hover{
 background-color: #ff0000;
 }
+
 .image-swipper a{
-  color: #ff0000;
+  text-decoration: none;
 }
 
 .swiper{
@@ -499,12 +506,84 @@ background-color: #ff0000;
 .category-name{
   font-size: 15px;
   color: #000000;
-  text-decoration: none;
   text-align: center;
 }
 
+/* category filter */
 
+.product-filter{
+  display: flex;
+  padding: 15px;
+  background-color: #ff0000;
+  margin-left: 20px;
+  margin-top: 30px;
+  align-items: center;
+}
 
+.display{
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.grid-view{
+  color: #fafafa;
+  font-size: 20px;
+  
+}
+
+.product-compare {
+  margin-left: 10px;
+}
+
+.product-compare a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.limit{
+  margin-left: 10px;
+}
+
+.sort{
+  margin-left: auto;
+}
+
+/* produk motor */
+
+.Motor-bekas{
+  width:800px
+}
+
+/*Pagintaion*/
+
+.pagination-class{
+  padding: 15px;
+  background-color: red;
+  margin-top: 30px;
+  width: 800px;
+}
+
+.results{
+  margin: auto;
+
+}
+
+.links-pagination{
+  margin-left: 100px;
+  gap: 20px;
+  font-family: sans-serif;
+  background-color:#fafafa;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.links-pagination a{
+  text-decoration: none;
+}
+
+.links-pagination a:hover{
+  color: #ff0000;
+}
 
 
 
