@@ -402,7 +402,7 @@ footer{
 }
 
 
-/* HTML 2 */
+/* HTML motorbekas */
 
 .nav-beranda{
   padding: 10px;
@@ -412,12 +412,12 @@ footer{
 .beranda{
   display: flex;
   margin-left: 80px;
+  align-items: center;
 
 }
 .beranda1{
   list-style-type: none;
   display: flex;
-  gap: 10px;
   margin: 0;
 }
 
@@ -588,6 +588,47 @@ background-color: #ff0000;
 .links-pagination a:hover{
   color: #ff0000;
 }
+
+
+/* HTML danatuani */
+
+.padding-content-tunai{
+  padding-left:150px ;
+  width: 1200px;
+  padding-top: 30px;
+}
+
+.content-tunai h1{
+  font-size: 15px;
+  padding: 15px;
+  background-color: #ff0000;
+  font-family: sans-serif;
+}
+
+.buttons{
+  background-color: var(--primary2);
+  padding: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: right;
+}
+
+.right{
+  margin-right: 70px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  width: 80px;
+  text-align: center;
+  height: 20px;
+}
+
+.buttons :hover{
+  background-color: var(--primary3);
+}
+
+
+
 
 
 
