@@ -628,10 +628,84 @@ background-color: #ff0000;
 }
 
 
+/* Blog */
+
+.content-blog{
+  background-color: #ff0000;
+  margin-top: 30px;
+  padding: 15px;
+  margin-left: 150px;
+  margin-right: 150px;  
+}
+
+.main-blog  {
+  font-size: 15px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.wrapper-blog-image{
+  display: flex;
+  margin-top: 30px;
+  padding: 15px;
+  margin-left: 150px;
+  margin-right: 150px;  
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic-card-image{
+  padding: 20px;
+  background-color: red;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.blog-card-title{
+  color: #fafafa;
+  text-align: center;
+}
+
+.blog-card-price{
+  color: #fafafa;
+  text-align: center;
+}
+
+.comment-date{
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.post-view-more-button{
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  width: 80px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary3);
+  align-self: center;
+}
 
 
 
+.comment-date i{
+  margin-right: 5px;
+}
 
+.post-text{
+  color: #fafafa;
+}
 
 /* Animasi */
 @keyframes fade {
