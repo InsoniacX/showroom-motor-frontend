@@ -558,7 +558,12 @@ background-color: #ff0000;
   width:800px
 }
 
+
 /*Pagintaion*/
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
 
 .pagination-class{
   padding: 15px;
