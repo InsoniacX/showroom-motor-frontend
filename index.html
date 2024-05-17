@@ -55,7 +55,7 @@
           <!--Logo-->
       <div class="header">
         <div class="Main-Wrapper">
-          <div class="logo">
+          <div class="logo-web">
             <img class="logo" src="img/logo/WhatsApp_Image_2024-05-08_at_10.21.02_32dea59a-removebg-preview.png" alt="logo" style="width: 150px;">
             <img class="logo" src="img/logo/WhatsApp_Image_2024-05-08_at_10.21.02_56040338-removebg-preview.png" alt="logo" style="width: 150px;">
           </div>
@@ -122,10 +122,49 @@
 
     
     <!--row-->
+    <div class="row-sticky">
+    <nav class="navbar bg-danger sticky-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MOTOR BEKAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DANA TUNAI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">UNIT TERJUAL</a>
+              </li>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
     <section id="menu" class="menu">
       <div class="row">
         <div class="picture-motor">
           <ul class="menu-section">
+            <li>
+              <a href="">
+                <img src="img/motor.jpg" class="motor-card"/>
+                <!-- <span><i class="fa-solid fa-link"></i></span> -->
+              </a>
+            </li>
             <li>
               <a href="">
                 <img src="img/motor.jpg" class="motor-card"/>
@@ -255,6 +294,16 @@
           <i class="fa-brands fa-twitter"></i>
       </div>
   </div>
+  <div class="search-bottom">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Send</button>
+      </form>
+    </div>
+  </nav>
+</div>
 
   <div class="footer-bottom">
     <div class="text-content">
@@ -282,16 +331,17 @@
     </div>
 
 
-    <div class="search-bar-content">
-      <div class="search-bar-bottom">
-        <input class="search1" type="text" name="search" placeholder="Alamat Email" value="" autocomplete="off" autocomplete2="off" data-listener-added_66b1dd13="true"> 
-      </div>
-      <!-- <div class="kirim">
-        <li>
-          <a href="#" class="href">kirim</a>
-        </li>
-      </div> -->
-    </div>
+    
+  </div>
+  <!-- <div class="search-bar-content">
+    <div class="search-bar-bottom">
+      <input class="search1" type="text" name="search" placeholder="Alamat Email" value="" autocomplete="off" autocomplete2="off" data-listener-added_66b1dd13="true"> 
+    </div> -->
+    <!-- <div class="kirim">
+      <li>
+        <a href="#" class="href">kirim</a>
+      </li>
+    </div> -->
   </div>
   
     </footer>
