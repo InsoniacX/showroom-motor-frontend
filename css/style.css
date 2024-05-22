@@ -477,6 +477,9 @@ footer{
 
 /* Slider */
 
+
+
+
 .slider{
   margin-bottom: 20px;
   background-color:#ff0000;
@@ -558,6 +561,7 @@ background-color: #ff0000;
 
 /* category filter */
 
+
 .product-filter{
   display: flex;
   padding: 15px;
@@ -595,7 +599,20 @@ background-color: #ff0000;
   margin-left: auto;
 }
 
-/* produk motor */
+/* Kolom */
+
+.Main-Wrapper1{
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.collapse .coloum-left{
+
+}
 
 .Motor-bekas{
   width:800px
@@ -798,11 +815,15 @@ background-color: #ff0000;
     display: none;
   }
 
+  .burger-menu-filter{
+    display: none;
+  }
+
 
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   html {
     font-size: 62.5%;
   }
@@ -811,17 +832,61 @@ background-color: #ff0000;
     display: inline-block;
   }
 
-  
+  .Main-Wrapper{
+    width: 100%;
+  }
+
+  .motor-card{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+   }
+
+   /* motorbekas */
+
+   .Main-content{
+    width: 100%;
+   }
+
+  .content1{
+    width: auto;
+    margin-left: auto;
+  }
+
+  .Motor-bekas{
+    width: 100%;
+  }
+
+  .pagination-class{
+    width: auto;
+    margin-left:auto ;
+  }
+  .coloum-left1{
+    display: none;
+  }
+
+  .coloum-left{
+    margin-left: 50px;
+  }
+
+  .navbar1{
+    display: none;
+  }
+
+  .product-filter{
+    margin-left: auto;
+  }
+
 } 
 
 /* Phone */
 
-@media (max-width: 960px) {
+@media (max-width: 450px) {
   html {
     font-size: 62.5%;
   }
   
-
+  /* Index */
   .search-bar{
     min-width: unset;
     width: 100%;
@@ -880,10 +945,52 @@ background-color: #ff0000;
       padding-left: 0;
     }
 
+    /* motorbekas */
+
+    .coloum-left1{
+      display: none;
+    }
+
+   .Main-content{
+   width: 100%;
+   }
+
+  .content1{
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+  }
+
+  
+  .swiper{
+    display: none;
+
+  }
+
+  .product-filter{
+    margin-left: auto;
+  }
+
+  .Motor-bekas{
+    width: auto;
+  }
+
+  .pagination-class{
+    width: auto;
+  }
+
+  .links-pagination{
+    margin-left: auto;
+  }
+
+  .beranda{
+    margin-left: auto;
+  }
+
 } 
 
 /* laptop */
-@media (min-width: 1366px) {
+@media (min-width: 1360px) {
   html {
     font-size: 75%;
   }
@@ -892,6 +999,9 @@ background-color: #ff0000;
     display: none;
   }
 
+  .burger-menu-filter{
+    display: none;
+  }
 }
 
 /* tablet */
